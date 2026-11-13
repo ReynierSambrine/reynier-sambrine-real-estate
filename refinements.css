@@ -1,0 +1,14 @@
+/* Requested visual refinements */
+.announcement{display:none!important}
+.site-header{height:96px;padding-left:max(calc((100vw - 1200px)/2),32px);padding-right:max(calc((100vw - 1200px)/2),32px)}
+.brand{gap:14px;min-width:290px}
+.personal-logo{display:block;width:52px;height:58px;object-fit:contain;flex:0 0 auto}
+.brand-copy strong{font-size:23px;letter-spacing:.1px}
+.brand-copy small{font-size:10px;letter-spacing:1.05px}
+.main-nav{gap:22px}
+.company-mark{border:0;padding:0;margin-top:34px}
+.company-mark img{display:block;width:245px;height:auto;max-height:92px;object-fit:contain;object-position:left center}
+.footer-company-logo{display:block;width:190px;height:auto;max-height:70px;object-fit:contain}
+@media(max-width:1050px){.brand{min-width:250px;gap:10px}.personal-logo{width:46px;height:52px}.brand-copy strong{font-size:20px}.main-nav{gap:12px}}
+@media(max-width:790px){.site-header{height:76px;padding:0 20px}.main-nav{top:76px}.brand{min-width:0}.personal-logo{width:42px;height:48px}.brand-copy strong{font-size:18px}.brand-copy small{font-size:8px}.company-mark img{width:220px}.footer-company-logo{width:150px}}
+@media(max-width:480px){.site-header{padding:0 14px}.brand{gap:6px}.personal-logo{width:35px;height:42px}.brand-copy strong{font-size:15px}.brand-copy small{font-size:7px;letter-spacing:.45px}.company-mark img{width:190px}.footer-company-logo{width:112px}}
