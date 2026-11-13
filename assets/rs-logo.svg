@@ -1,1 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="title"><title id="title">Reynier Sambrine monogram</title><g fill="#C6A15B"><path d="M72 92 42 46l48 27-2-45 38 37 26-55 13 55 38-37-4 44 54-25-37 47-5-7-15 5 5-44-31 31-16-16-18 37-21-38-16 17-28-28 4 41-17-5z"/><path d="M54 103c18-27 53-39 89-35 39 4 65 26 69 57 3 19-4 38-17 55 35 13 56 41 56 72 0 35-31 58-73 58-31 0-58-13-77-37l18-14c14 17 34 27 59 27 29 0 49-13 49-35 0-28-23-47-57-57l-14-4 10-12c18-21 25-40 22-57-4-23-23-38-48-41-26-4-50 5-63 23-10 14-11 31-3 45 9 16 28 26 52 28l-3 21c-32-3-57-17-70-40-12-22-11-48 6-72z"/><path d="M122 121h24v119h-24z"/><path d="M135 229c17 0 32 6 46 20l-14 15c-10-10-20-15-33-15z"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 420" role="img" aria-labelledby="title">
+  <title id="title">Reynier Sambrine monogram</title>
+  <g transform="translate(10,10)" fill="none" stroke="#C6A15B" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-width="7">
+      <path d="M160 50 L182 20 L206 48 L228 18 L255 52 L282 25 L305 55 L328 26 L350 58 L367 45 L390 82"/>
+      <path d="M180 32 L170 10 L190 26 L198 6 L215 25 L228 6 L241 25 L258 10 L250 30 L270 18 L262 60"/>
+      <path d="M160 50 L174 70 L190 52 L206 68 L228 50 L250 72 L270 54 L290 70 L310 52 L328 66 L345 50"/>
+      <path d="M170 55 L170 52"/>
+      <path d="M280 52 L280 30"/>
+      <path d="M250 52 L250 24"/>
+      <path d="M223 54 L223 18"/>
+      <path d="M201 53 L201 30"/>
+      <path d="M146 58 L161 82 L175 58"/>
+      <path d="M328 58 L341 82 L355 58"/>
+    </g>
+
+    <g font-family="Georgia, 'Times New Roman', serif" font-size="250" font-weight="700" font-style="italic" stroke="#C6A15B" stroke-width="5" paint-order="stroke fill" fill="none" transform="translate(0,10)">
+      <text x="35" y="280">R</text>
+      <text x="210" y="280">S</text>
+    </g>
+  </g>
+</svg>
