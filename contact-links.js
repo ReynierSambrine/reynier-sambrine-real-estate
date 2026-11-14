@@ -1,7 +1,15 @@
 (function(){
   const initialize=()=>{
     const container=document.querySelector('.contact-details');
-    if(!container||container.dataset.socialReady==='true')return;
+    if(!container)return;
+    if(!document.querySelector('link[data-contact-links-styles]')){
+      const styles=document.createElement('link');
+      styles.rel='stylesheet';
+      styles.href='contact-links.css?v=small-icons-2';
+      styles.dataset.contactLinksStyles='true';
+      document.head.appendChild(styles);
+    }
+    if(container.dataset.socialReady==='true')return;
     container.dataset.socialReady='true';
     container.innerHTML=`
       <div class="contact-social-list" aria-label="Redes sociales y contacto">
