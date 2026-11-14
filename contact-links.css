@@ -1,12 +1,12 @@
-/* Stacked branded contact links */
+/* Compact stacked contact links, sized to suit the site's refined layout */
 .contact-social-list{display:flex;flex-direction:column;border-top:1px solid #ddd8ce;margin-top:8px}
-.contact-social-link{display:flex;align-items:center;gap:15px;min-height:67px;padding:11px 5px;border-bottom:1px solid #ddd8ce;color:var(--navy);transition:background .2s,padding .2s,color .2s}
-.contact-social-link:hover{background:#ffffff80;padding-left:12px;color:#98783d}
-.social-icon{width:34px;height:34px;flex:0 0 34px;border:1px solid #d5c7a6;border-radius:50%;display:grid;place-items:center;color:var(--gold)}
-.social-icon svg{width:17px;height:17px;fill:currentColor}
+.contact-social-link{display:flex;align-items:center;gap:12px;min-height:54px;padding:8px 4px;border-bottom:1px solid #ddd8ce;color:var(--navy);transition:background .2s,padding .2s,color .2s}
+.contact-social-link:hover{background:#ffffff80;padding-left:9px;color:#98783d}
+.social-icon{width:26px;height:26px;flex:0 0 26px;border:1px solid #d5c7a6;border-radius:50%;display:grid;place-items:center;color:var(--gold)}
+.social-icon svg{width:13px;height:13px;fill:currentColor}
 .social-copy{display:grid;gap:1px;flex:1;min-width:0}
-.social-copy strong{font:500 15px var(--sans);color:var(--navy)}
-.social-copy small{font:400 11px var(--sans);color:#727985;overflow-wrap:anywhere}
-.social-arrow{color:var(--gold);font-size:15px}
+.social-copy strong{font:500 14px var(--sans);color:var(--navy)}
+.social-copy small{font:400 10px var(--sans);color:#727985;overflow-wrap:anywhere}
+.social-arrow{color:var(--gold);font-size:13px}
 .linkedin-pending .social-copy small{color:#8a7a5c}
-@media(max-width:480px){.contact-social-link{min-height:62px;gap:12px}.social-copy strong{font-size:14px}.social-copy small{font-size:10px}}
+@media(max-width:480px){.contact-social-link{min-height:50px;gap:10px}.social-icon{width:24px;height:24px;flex-basis:24px}.social-icon svg{width:12px;height:12px}.social-copy strong{font-size:13px}.social-copy small{font-size:10px}}
