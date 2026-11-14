@@ -3,13 +3,13 @@
 .site-header{height:110px;padding-left:max(calc((100vw - 1200px)/2),32px);padding-right:max(calc((100vw - 1200px)/2),32px)}
 .brand{gap:14px;align-items:center;min-width:310px}
 .personal-logo{display:block;width:140px;height:auto;object-fit:contain;flex:0 0 auto;transform:translateY(-2px)}
-.brand-copy{transform:translateY(2px)}
-.brand-copy strong{font-size:29px;letter-spacing:-.4px}
-.brand-copy small{font-size:10px;letter-spacing:1px}
+.brand-copy{transform:translateY(2px);font-family:'DM Sans',Arial,sans-serif}
+.brand-copy strong{font-family:'DM Sans',Arial,sans-serif;font-size:32px;font-weight:600;letter-spacing:-.7px;line-height:1.15}
+.brand-copy small{font-family:'DM Sans',Arial,sans-serif;font-size:12px;font-weight:500;letter-spacing:.65px;line-height:1.45;color:#626a74}
 .main-nav{gap:24px}
 .company-mark{border:0;padding:0;margin-top:34px}
 .company-mark img{display:block;width:240px;height:auto;max-height:90px;object-fit:contain;object-position:left center}
 .footer-company-logo{display:block;width:190px;height:auto;max-height:70px;object-fit:contain}
-@media(max-width:1050px){.personal-logo{width:118px}.brand-copy strong{font-size:24px}.main-nav{gap:12px}}
-@media(max-width:790px){.site-header{height:80px;padding:0 20px}.brand{min-width:0}.personal-logo{width:98px}.brand-copy strong{font-size:18px}.brand-copy small{font-size:8px}.main-nav{top:80px}.company-mark img{width:210px}.footer-company-logo{width:145px}}
-@media(max-width:480px){.site-header{padding:0 14px}.personal-logo{width:76px}.brand-copy strong{font-size:15px}.brand-copy small{font-size:7px;letter-spacing:.45px}.company-mark img{width:180px}.footer-company-logo{width:120px}}
+@media(max-width:1050px){.personal-logo{width:118px}.brand-copy strong{font-size:27px}.brand-copy small{font-size:11px}.main-nav{gap:12px}}
+@media(max-width:790px){.site-header{height:80px;padding:0 20px}.brand{min-width:0}.personal-logo{width:98px}.brand-copy strong{font-size:21px}.brand-copy small{font-size:10px}.main-nav{top:80px}.company-mark img{width:210px}.footer-company-logo{width:145px}}
+@media(max-width:480px){.site-header{padding:0 14px}.brand{gap:7px}.personal-logo{width:76px}.brand-copy strong{font-size:17px;letter-spacing:-.35px}.brand-copy small{font-size:8px;letter-spacing:.25px}.company-mark img{width:180px}.footer-company-logo{width:120px}}
