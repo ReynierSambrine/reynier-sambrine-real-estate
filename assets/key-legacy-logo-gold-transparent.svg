@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Key &amp; Legacy Realty</title>
+  <desc id="desc">Gold circular house and key emblem with the words Key &amp; Legacy Realty</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f8e7a8"/>
+      <stop offset="18%" stop-color="#d8b15c"/>
+      <stop offset="42%" stop-color="#f4db8f"/>
+      <stop offset="62%" stop-color="#c38f2b"/>
+      <stop offset="80%" stop-color="#f5d97a"/>
+      <stop offset="100%" stop-color="#ab7a19"/>
+    </linearGradient>
+    <linearGradient id="goldSoft" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f8e7a8"/>
+      <stop offset="50%" stop-color="#d7ad4a"/>
+      <stop offset="100%" stop-color="#9c6c17"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(120 46)">
+    <circle cx="280" cy="210" r="185" fill="none" stroke="url(#gold)" stroke-width="22"/>
+    <path d="M210 220 L280 150 L350 220" fill="none" stroke="url(#gold)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M230 214 V300 H330 V214" fill="none" stroke="url(#gold)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="url(#goldSoft)">
+      <rect x="250" y="240" width="20" height="20" rx="2"/>
+      <rect x="280" y="240" width="20" height="20" rx="2"/>
+      <rect x="310" y="240" width="20" height="20" rx="2"/>
+      <rect x="265" y="270" width="20" height="20" rx="2"/>
+      <rect x="295" y="270" width="20" height="20" rx="2"/>
+    </g>
+
+    <g transform="translate(0 5)">
+      <path d="M210 402 c62 -48 118 -72 178 -72 c57 0 110 19 163 58" fill="none" stroke="url(#gold)" stroke-width="22" stroke-linecap="round"/>
+      <path d="M250 378 c0 -6 10 -10 20 -10 h120 c10 0 20 4 20 10 v96 c0 18 -14 32 -32 32 h-96 c-18 0 -32 -14 -32 -32 z" fill="none" stroke="url(#gold)" stroke-width="20"/>
+      <path d="M280 250 c38 -38 118 -38 156 0" fill="none" stroke="url(#gold)" stroke-width="18" stroke-linecap="round"/>
+      <path d="M287 316 c26 -40 66 -70 109 -79" fill="none" stroke="url(#gold)" stroke-width="16" stroke-linecap="round" opacity=".9"/>
+      <path d="M405 317 c-16 22 -38 54 -49 89" fill="none" stroke="url(#gold)" stroke-width="16" stroke-linecap="round" opacity=".9"/>
+      <path d="M318 332 c7 14 18 31 41 44" fill="none" stroke="url(#gold)" stroke-width="14" stroke-linecap="round"/>
+      <circle cx="280" cy="210" r="184" fill="none" stroke="url(#gold)" stroke-width="9" opacity=".7"/>
+    </g>
+  </g>
+
+  <g transform="translate(500 178)">
+    <text x="0" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="152" font-weight="700" letter-spacing="-6" fill="url(#gold)">KEY &amp; LEGACY</text>
+    <line x1="18" y1="194" x2="610" y2="194" stroke="url(#gold)" stroke-width="7" stroke-linecap="round" opacity=".9"/>
+    <text x="310" y="292" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="92" font-weight="500" letter-spacing="8" fill="url(#gold)">REALTY</text>
+    <line x1="0" y1="346" x2="620" y2="346" stroke="url(#gold)" stroke-width="7" stroke-linecap="round" opacity=".9"/>
+  </g>
+</svg>
