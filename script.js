@@ -3,6 +3,7 @@
   function load(src,onload){const script=document.createElement('script');script.src=src;if(onload)script.onload=onload;document.body.appendChild(script);return script;}
   const initEnhancements=()=>{
     load('mortgage-calculator.js',()=>load('contact-links.js'));
+    load('service-areas.js');
     window.setTimeout(()=>{if(!document.querySelector('.contact-social-list'))load('contact-links.js');},2500);
   };
   const boot=()=>{
