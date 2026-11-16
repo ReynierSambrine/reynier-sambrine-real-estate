@@ -19,23 +19,32 @@
       button.textContent=label;
       button.setAttribute('aria-pressed','false');
       button.addEventListener('click',()=>{
-        select.value=code;
-        select.dispatchEvent(new Event('change',{bubbles:true}));
-        sync();
+        if (select) {
+          select.value = code;
+          select.dispatchEvent(new Event('change',{bubbles:true}));
+        }
+        if (window.setLanguage) window.setLanguage(code);
       });
       group.appendChild(button);
     });
+
     picker.appendChild(group);
-    select.addEventListener('change',sync);
-    function sync(){
-      const current=['es','en','it'].includes(select.value)?select.value:'es';
-      group.querySelectorAll('.language-pill').forEach(button=>{
-        const active=button.dataset.lang===current;
-        button.classList.toggle('is-active',active);
-        button.setAttribute('aria-pressed',String(active));
+    const sync=()=>{
+      const current = ['es','en','it'].includes(select.value) ? select.value : 'es';
+      group.querySelectorAll('.language-pill').forEach((button)=>{
+        const active = button.dataset.lang === current;
+        button.classList.toggle('is-active', active);
+        button.setAttribute('aria-pressed', String(active));
       });
+    };
+
+    select.addEventListener('change', sync);
+    if (window.setLanguage) {
+      const current = select.value || 'es';
+      window.setLanguage(current);
     }
     sync();
   };
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
+
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',init,{once:true}); else init();
 })();
